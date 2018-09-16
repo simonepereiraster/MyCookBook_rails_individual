@@ -1,5 +1,4 @@
 class Recipe < ApplicationRecord
-   
 def create
     @recipe = Recipe.new(recipe_params)
    
